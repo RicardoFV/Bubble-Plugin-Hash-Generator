@@ -1,0 +1,36 @@
+{
+    "category": "plugins",
+    "display": "generate_sha256",
+    "fields": {
+        "AAO": {
+            "caption": "text_field",
+            "doc": "Gets the entered value",
+            "editor": "DynamicValue",
+            "name": "text_field",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAJ": {
+            "caption": "Result SHA256 Hex",
+            "name": "result_sha256_hex",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Result SHA256 Base64",
+            "name": "result_sha256_base64",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "error",
+            "name": "error",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

@@ -1,0 +1,36 @@
+{
+    "category": "plugins",
+    "display": "generate_md5",
+    "fields": {
+        "AAI": {
+            "caption": "text_field",
+            "doc": "Gets the entered value",
+            "editor": "DynamicValue",
+            "name": "text_field",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAJ": {
+            "caption": "Result MD5 Hex",
+            "name": "result_md5_hex",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Result MD5 Base64",
+            "name": "result_md5_base64",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "error",
+            "name": "error",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

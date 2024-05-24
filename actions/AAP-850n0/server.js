@@ -7,7 +7,7 @@ function(properties, context) {
     // if the informed id is different from null and the element exists
     if(field !== "" || field !== null || field !== undefined){ //start of if
     	// perform hash generation
-        let encrypted_hex = crypto.createHash('sha1').update(field).digest("hex");
+        let encrypted_hex = crypto.createHash('sha256').update(field).digest("hex");
         let encrypted_base64 = crypto.createHash('sha256').update(field).digest("base64");
          
         //hash result

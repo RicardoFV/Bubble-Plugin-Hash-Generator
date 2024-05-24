@@ -8,7 +8,7 @@
     "image": "//s3.amazonaws.com/appforest_uf/f1668995508803x421868343802896700/images.png",
     "license": "open_source",
     "link": "https://testes-plugins-app.bubbleapps.io/version-test/generete_hash",
-    "name": "Hash Generator",
+    "name": "Hash Generator - MD5-SHA1-SHA256",
     "plugin_instructions": "Segue as instruções para uso do plugin\n\n1° Realize a pesquisa do plugin \"Hash Generator\"\n2° Coloque um campo de texto o qual você possa passar o valor desejado.\n3° Dentro da execução do fluxo, dentro da aba Plugins, selecione a função desejada. \n\nObs : Todas as funções te permite passar valores dinâmicos , como também te permite deixar um valor fixo.\n\n-------------------------------------------------------------------------------------\n\nFollow the instructions for using the plugin\n\n1° Perform the plugin search \"Hash Generator\"\n2° Place a text field where you can pass the desired value.\n3° Within the execution of the flow, within the Plugins tab, select the desired function.\n\nNote: All functions allow you to pass dynamic values, as well as leaving a fixed value. ",
-    "sa_node_version": 14
+    "sa_node_version": 18
 }

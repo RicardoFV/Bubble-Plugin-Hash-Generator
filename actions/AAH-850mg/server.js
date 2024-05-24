@@ -1,4 +1,4 @@
-function(properties, context) {
+async function(properties, context) {
 	// import crypto
     const crypto = require("crypto")
     // receive the typed text
